@@ -1,0 +1,25 @@
+2018-10-23 08:31:25.004 EEST [490] LOG:  listening on IPv6 address "::1", port 5432
+2018-10-23 08:31:25.004 EEST [490] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-10-23 08:31:25.005 EEST [490] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-10-23 08:31:25.017 EEST [492] LOG:  database system was shut down at 2018-10-22 18:13:59 EEST
+2018-10-23 08:31:25.028 EEST [490] LOG:  database system is ready to accept connections
+2018-10-23 17:21:30.481 EEST [490] LOG:  received smart shutdown request
+2018-10-23 17:21:30.486 EEST [490] LOG:  worker process: logical replication launcher (PID 498) exited with exit code 1
+2018-10-23 17:21:30.486 EEST [493] LOG:  shutting down
+2018-10-23 17:21:30.494 EEST [490] LOG:  database system is shut down
+2018-10-25 08:54:12.964 EEST [846] FATAL:  lock file "postmaster.pid" already exists
+2018-10-25 08:54:12.964 EEST [846] HINT:  Is another postmaster (PID 835) running in data directory "/usr/local/var/postgres"?
+2018-10-31 08:55:27.514 EET [404] LOG:  listening on IPv6 address "::1", port 5432
+2018-10-31 08:55:27.514 EET [404] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-10-31 08:55:27.515 EET [404] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-10-31 08:55:27.528 EET [405] LOG:  database system was shut down at 2018-10-30 17:27:43 EET
+2018-10-31 08:55:27.542 EET [404] LOG:  database system is ready to accept connections
+2018-10-31 18:02:26.636 EET [404] LOG:  received smart shutdown request
+2018-10-31 18:02:26.639 EET [404] LOG:  worker process: logical replication launcher (PID 411) exited with exit code 1
+2018-10-31 18:02:26.639 EET [406] LOG:  shutting down
+2018-10-31 18:02:26.643 EET [404] LOG:  database system is shut down
+2018-11-01 08:34:32.744 EET [483] LOG:  listening on IPv6 address "::1", port 5432
+2018-11-01 08:34:32.744 EET [483] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-11-01 08:34:32.745 EET [483] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-11-01 08:34:32.758 EET [486] LOG:  database system was shut down at 2018-10-31 18:02:26 EET
+2018-11-01 08:34:32.767 EET [483] LOG:  database system is ready to accept connections
