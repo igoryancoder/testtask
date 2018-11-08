@@ -29,7 +29,7 @@ const SignInComponent = ({ email, password, submit, redirectToSocialReg, globalB
             <Text>Sign up</Text>
           </TouchableOpacity>
         </View>
-        {/* <Text onPress={redirectToSocialReg}>SignIn with social net.</Text> */}
+        <Text onPress={redirectToSocialReg}>SignIn with social net.</Text>
 
       </View>
     </TouchableWithoutFeedback>

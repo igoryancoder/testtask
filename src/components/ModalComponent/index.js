@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { Text, View, TextInput } from 'react-native';
 import styles from './styles';
 
 const ModalComponent = ({ changeInputValue, valueLength, globalFontSize, globalFont, globalBgColor }) => {

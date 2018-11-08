@@ -1,5 +1,5 @@
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import SignInComponent from '../../components/SignInComponent';
 import { connect } from 'react-redux';
 import { signInSaga } from '../../store/actions';
@@ -14,18 +14,18 @@ class SignInContainer extends Component {
   }
 
   email = (email) => {
-    this.setState({email});
+    this.setState({ email });
   }
   password = (password) => {
-    this.setState({password});
+    this.setState({ password });
   }
   redirectToSocialReg = () => {
     this.props.navigation.navigate('SocialSignIn');
   }
   submit = () => {
-    const {email, password} = this.state;
-    if(email.length === 0 || password.length === 0) return;
-    this.props.signInSaga({email, password, nav: this.props.navigation.navigate});
+    const { email, password } = this.state;
+    if (email.length === 0 || password.length === 0) return;
+    this.props.signInSaga({ email, password, nav: this.props.navigation.navigate });
   }
 
   render() {

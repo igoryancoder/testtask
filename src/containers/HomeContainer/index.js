@@ -51,7 +51,7 @@ class ShopContainer extends Component {
         subtitle,
         title
       } = notification;
-      // console.log("LOG: ", title, body, JSON.stringify(data))
+      console.log("LOG: ", title, body, JSON.stringify(data))
     });
   }
 

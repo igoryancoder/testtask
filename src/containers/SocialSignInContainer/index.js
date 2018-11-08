@@ -1,5 +1,5 @@
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import SocialSignInComponent from '../../components/SocialSignInComponent';
 import { connect } from 'react-redux';
 import { socialSignInSaga } from '../../store/actions';
@@ -11,7 +11,7 @@ class SocialSignInContainer extends Component {
   }
 
   googleLogin = () => {
-    this.props.socialSignInSaga({nav: this.props.navigation.navigate});
+    this.props.socialSignInSaga({ nav: this.props.navigation.navigate });
   }
 
   render() {
